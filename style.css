@@ -245,3 +245,15 @@ section{
         height: auto;
     }
 }
+@media (max-width: 420px) {
+    .hero-img img{
+        width: 100%;
+        height: auto;
+    }
+    .hero-text .ctaa{
+        display: block;
+        margin: 8px 0;
+        margin-left: 0;
+        width: 60%;
+    }
+}
