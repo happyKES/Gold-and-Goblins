@@ -150,10 +150,22 @@ section{
     border: 1px solid #fff;
     transform: translateY(8px);
 }
+
 @media (max-width: 1749px) {
-    .ctaa {
-        margin-left: 0;
-        margin-top: 20px;
+    .hero-img img{
+        width: 100%;
+        height: auto;   
+    }
+    .hero-text h1{
+        font-size: 140px;
+        margin: 0 0 50px;
+    }
+    .hero-text h5{
+        margin-bottom: 25px;
+
+    }
+    .hero-text{
+        padding-top: 115px;
         transition: .2s;
     }
 }
@@ -171,10 +183,21 @@ section{
         right: 3%;
         transition: .2s;
     }      
-    .ctaa {
-        margin-left: 0;
-        margin-top: 20px;
+    .hero-text{
+        padding-top: 115px;
         transition: .2s;
+    }
+    .hero-img img{
+        width: 100%;
+        height: auto;   
+    }
+    .hero-text h1{
+        font-size: 120px;
+        margin: 0 0 30px;
+    }
+    .hero-text h5{
+        margin-bottom: 25px;
+
     }
 }
 @media (max-width: 1460px){
@@ -182,10 +205,21 @@ section{
         padding: 0 12%;
         transition: .2s;
     }
-    .ctaa {
-        margin-left: 0;
-        margin-top: 20px;
+    .hero-text{
+        padding-top: 115px;
         transition: .2s;
+    }
+    .hero-img img{
+        width: 100%;
+        height: auto;   
+    }
+    .hero-text h1{
+        font-size: 100px;
+        margin: 0 0 30px;
+    }
+    .hero-text h5{
+        margin-bottom: 25px;
+
     }
 }
 @media (max-width: 1340px){
@@ -200,6 +234,10 @@ section{
     .hero-text h5{
         margin-bottom: 25px;
 
+    }
+    .hero-text{
+        padding-top: 115px;
+        transition: .2s;
     }
 }
 @media (max-width: 1195px){
